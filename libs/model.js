@@ -11,7 +11,7 @@ class Model {
         this.dbName = dbName;
         this.modelName = modelName;
         this.offset = 0;
-        this.limit = 10;
+        this.limit = "none";
     }
 
     async createDatabase() {
